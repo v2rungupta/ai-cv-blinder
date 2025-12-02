@@ -7,3 +7,7 @@ venv/
 # Python cache
 __pycache__/
 *.pyc
+
+
+#Streamlit
+.streamlit/secrets.toml
