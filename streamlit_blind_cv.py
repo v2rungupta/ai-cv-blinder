@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ----------------- CONFIG -----------------
-client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # ----------------- PDF → Images -----------------
 def pdf_to_images(pdf_bytes):
